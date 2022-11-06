@@ -6,6 +6,7 @@ plugins {
 android {
     namespace 'com.redhalfstudios.currencyexchanger'
     compileSdk 33
+    buildToolsVersion '33.0.0'
 
     defaultConfig {
         applicationId "com.redhalfstudios.currencyexchanger"
@@ -35,7 +36,6 @@ android {
     buildFeatures {
         viewBinding true
     }
-    buildToolsVersion '33.0.0'
 }
 
 dependencies {
